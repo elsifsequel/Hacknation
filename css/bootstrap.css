@@ -5459,7 +5459,9 @@ button.list-group-item-danger.active:focus {
   padding: 15px;
 }
 .panel-heading {
-  padding: 10px 15px;
+  background-image: none;
+  background-color: #618f9e;
+  padding: 5px 15px;
   border-bottom: 1px solid transparent;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
@@ -5686,15 +5688,16 @@ button.list-group-item-danger.active:focus {
   border-color: #ddd;
 }
 .panel-default > .panel-heading {
-  color: #333;
-  background-color: #f5f5f5;
+  color: white;
+  background-image: none;
+  background-color: #618f9e;
   border-color: #ddd;
 }
 .panel-default > .panel-heading + .panel-collapse > .panel-body {
   border-top-color: #ddd;
 }
 .panel-default > .panel-heading .badge {
-  color: #f5f5f5;
+  color: #618f9e;
   background-color: #333;
 }
 .panel-default > .panel-footer + .panel-collapse > .panel-body {
@@ -6755,3 +6758,21 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+.panel-custom{
+      border-color: #ddd;
+}
+.panel-custom > .panel-heading {
+    background: #618f9e; 
+    color: #ffffff;
+    border-color: #f5f5f5;
+}
+.btn-custom{
+  height: 40px;
+  width: 90px;
+  color: #fff;
+  background-color: #71ba51;
+}
+.btn-custom:focus{
+  background-color: #3f6d2c;
+  color: #fff;
+}
